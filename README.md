@@ -80,11 +80,11 @@ React Notes:
 	<Alert>Hello world</Alert> , in this case children: string will work.
 	But in case you make it more complex by passing say <span> tag inside. Then using string wont work.
 	In that case, change type from string to ReactNode.
-
-   color?: string;  -> The question mark means it is optional
-   color?: "primary"; -> This will restrict the option to primary only. Anything else will give a compilation error
-   color?: 'primary' | 'secondary' | 'danger' -> now you can choose one of the provided options
-
-   When you pass an onClick handler to a custom component like <Alert>, React treats it as a prop, not as an event listener
+	
+ 	color?: string;  -> The question mark means it is optional
+  	color?: "primary"; -> This will restrict the option to primary only. Anything else will give a compilation error
+   	color?: 'primary' | 'secondary' | 'danger' -> now you can choose one of the provided options
+	
+ 	When you pass an onClick handler to a custom component like <Alert>, React treats it as a prop, not as an event listener
 
 
